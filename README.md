@@ -46,6 +46,11 @@ The Text to Speech Converter is a web application that allows users to convert t
     - Enter the Post ID in the provided input field and click "Retrieve" to retrieve and play the generated audio file.
   
 
+
+![text-to-speech](https://github.com/AmirMalaeb/Text-to-Speech-Converter/assets/162432988/9b6930fd-fb2a-4e71-a98e-92346d869798)
+
+  
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
