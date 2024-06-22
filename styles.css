@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e2f;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#content {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #2e2e3e;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff9900;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #3e3e4e;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7700;
+}
+
+#charCounter {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.copy-container {
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+}
+
+#postIDText {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.copy-icon {
+    cursor: pointer;
+    color: #ff9900;
+    font-size: 20px;
+    transition: color 0.2s;
+}
+
+.copy-icon:hover {
+    color: #ff7700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+table th {
+    background-color: #ff9900;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+table tr:nth-child(even) {
+    background-color: #3e3e4e;
+}
+
+table tr:nth-child(odd) {
+    background-color: #2e2e3e;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Text to Speech</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+        <h1>Zayn's Text to Speech Converter</h1>
+        <div class="form-group">
+            <label for="voiceSelected">Select Voice:</label>
+            <select id="voiceSelected" class="form-control">
+                <option value="Joanna">Joanna [English]</option>
+                <option value="Maja">Maja [Polish]</option>
+                <option value="Enrique">Enrique [Spanish]</option>
+                <option value="Marlene">Marlene [German]</option>
+                <option value="Mathieu">Mathieu [French]</option>
+                <option value="Cristiano">Cristiano [Portuguese]</option>
+                <option value="Liv">Liv [Norwegian]</option>
+                <option value="Mizuki">Mizuki [Japanese]</option>
+                <option value="Carla">Carla [Italian]</option>
+                <option value="Carmen">Carmen [Romanian]</option>
+                <option value="Tatyana">Tatyana [Russian]</option>
+                <option value="Astrid">Astrid [Swedish]</option>
+                <option value="Filiz">Filiz [Turkish]</option>
+                <option value="Gwyneth">Gwyneth [Welsh]</option>
+                <option value="Karl">Karl [Icelandic]</option>
+                <!-- Add more voices as needed -->
+            </select>
+            <button id="sayButton" class="btn">Text to Speech!</button>
+            <span id="postIDreturned" class="copy-container">
+                <span id="postIDText"></span>
+                <i id="copyButton" class="fas fa-copy copy-icon"></i>
+            </span>
+        </div>
+        <div class="form-group">
+            <label for="postText">Enter Text:</label>
+            <textarea id="postText" class="form-control" rows="5"></textarea>
+            <span id="charCounter">Characters: 0</span>
+        </div>
+        <div class="form-group">
+            <label for="postId">Paste your Post ID here to Retrieve Voice:</label>
+            <input type="text" id="postId" class="form-control">
+            <button id="searchButton" class="btn">Retrieve</button>
+        </div>
+    </div>
+    <table id="posts">
+        <thead>
+            <tr>
+                <th>Post ID</th>
+                <th>Voice</th>
+                <th>Post</th>
+                <th>Media</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="scripts.js"></script>
+</body>
+</html>
